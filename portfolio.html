@@ -1,0 +1,184 @@
+<html>
+<head>
+    <title> Ayush Pal</title>
+    <link rel="stylesheet" href="notes.css">
+    <script src="https://kit.fontawesome.com/6aeacf3ffc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--Header Section-->
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <div id="main" style="overflow-y: auto;">
+        <div id="mySidenav" class="sidenav">
+            <button href="javascript:void(0)" id="closebtn" onclick="closeNav()">x</button>
+           
+            <a onclick="closeNav()" href="#">Home</a>
+            <a onclick="closeNav()" href="#About">About</a>
+            <a onclick="closeNav()" href="#My Skills">My skills</a>
+            <a onclick="closeNav()" href="#Education">Education</a>
+            <a onclick="closeNav()" href="#contact_me">Contact me</a>
+        </div>
+
+
+
+        <div id="home" class="home">
+            <p class="text-1">Hello, This is</p>
+            <p class="text-2">Ayush</p>
+            <p class="text-3">And I'm a <span>Student</span></p>
+        </div>
+
+        <!--About Section-->
+        <div id="About">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <h1 class="head1">About Me</h1>
+            <h2 class="subhead1">----who I am----</h2>
+            <img class="main" src="Photo1.jpeg">
+            <div class="abt">
+                <p class="first">I'm Ayush</p>
+                <p class="hobbies">I am currently pursuing my B.Tech (specialization in Data Analytics) in Vellore Institute of Technology, Amaravati, Andhra Pradesh. I am a student with strong knowledge of software engineering principles and development practices. Experienced in developing highly functional applications and software solutions. Skilled in problem solving, debugging, and testing applications. Seeking a position as a Software Engineer to leverage knowledge and experience to develop innovative software applications.</p>
+            </div>
+        </div>
+
+
+        <!--Skill section-->
+        <div id="My Skills" class="skills" style="background-color: black;">
+            <div class="skill-head">
+                <h1 class="head2">My Skills</h1>
+                <h2 class="subhead2">----what I know----</h2>
+
+                <p class="text-4">As a 3rd Year student.I am trying to learn computer languages. I have a good knowledge in high level programming languages like C, python, java, sql and web development languages like html, css, javascript and php.</p>
+            </div>
+        </div>
+        <div class="skill-down">
+            <div class="progress">
+                <div class="progress_fill">
+                    <pre class="progress_text">Java(90%)</pre>                                                                                                                      
+                </div>
+            </div><br><br><br>
+
+            <div class="progress">
+                <div class="progress_fill_1">
+                    <p class="progress_text">Python(75%)</p>                                                                                                                       
+                </div>
+            </div><br><br><br>
+
+            <div class="progress">
+                <div class="progress_fill_1">
+                    <p class="progress_text">C (40%)</p>                                                                                                                       
+                </div>
+            </div><br><br><br>
+
+            <div class="progress">
+                <div class="progress_fill_1">
+                    <p class="progress_text">SQL(80%)</p>                                                                                                                       
+                </div>
+            </div><br><br><br>
+
+            <div class="progress">
+                <div class="progress_fill_1">
+                    <p class="progress_text">HTML(90%)</p>                                                                                                                       
+                </div>
+            </div><br><br><br>
+
+            <div class="progress">
+                <div class="progress_fill_2">
+                    <p class="progress_text">CSS (80%)</p>
+
+                                                                                                                      
+                </div>
+            </div><br><br><br>
+
+            <div class="progress">
+                <div class="progress_fill_1">
+                    <p class="progress_text">Javascript(80%)</p>                                                                                                                       
+                </div>
+            </div><br><br><br>
+
+            <div class="progress">
+                <div class="progress_fill_3">
+                    <p class="progress_text">PHP(50%)</p>                                                                                                                      
+                </div>
+            </div>
+            <br><br>
+        </div>
+
+
+        <!-- Education section-->
+        <div id="Education">
+
+            <h1 class="head3">Education</h1>
+            <h2 class="subhead3">----what and where I study----</h2>
+
+            <div class="flex-container">
+                <div class="box"><img class="mid" src="sg.png">
+                    <p class="text-6"><a class="edu" href="https://sgpublicschoolmgs.net/">S.G Public School</a></p>
+                    <p class="text-5">Did my schooling till 10th grade</p><br>
+                </div>
+                <div class="box"><img class="mid" src="srb.png">
+                    <p class="text-6"><a class="edu" href="https://srbpsddu.com/">S.R.B Public School</a></p>
+                    <p class="text-5">Did my schooling from 10th to 12th grade.
+                    </p><br>
+                </div>
+                <div class="box"><img class="mid" src="vit.png">
+                    <p class="text-6"><a class="edu" href="https://vitap.ac.in/">VIT AP University</a></p>
+                    <p class="text-5">Majoring in Computer Science and Engineering</p><br>
+                </div>
+            </div>
+        </div>
+
+        <!--Contact Section-->
+        <div id='contact_me' class="skills" style="background-color: black;">
+            <h1 class="head4">Contact Me</h1>
+            <h2 class="subhead4">----get in touch----</h2>
+
+            <i class="fas fa-map-marker-alt"></i>
+            <p class="class">Address</p>
+            <p class="class1">Varanasi, Uttar Pradesh, India</p>
+
+            <form action="https://formsubmit.co/resoayush8840@gmail.com" method="POST">
+                <div class="form-container">
+                    <label class="form1" for="fname">Name:</label>
+                    <input type="text" id="fname" name="fname">
+                    <br>
+                    <label class="form" for="email">Email-id:</label>
+                    <input type="text" id="email" name="email">
+                    <br>
+                    <input type="hidden" name="_next" value="#">
+                    <label class="form1" for="message">Message:</label>
+                    <input type="text" id="message" name="message">
+                    <div>
+                        <input type="submit" name="" class="button" value="Send Message">
+                    </div>
+               
+            <p class="text6">On the off chance that you might want to connect with me, don't hesitate to text me.</p>
+
+
+            <a href="mailto:resoayush8840@gmail.com"><img class="contpic1" src="email.png" alt="email" style="width:45px;height:33px;border-radius:2px;"></a>
+            <a href="https://www.linkedin.com/in/ayush-pal- 13203b217"><img class="contpic" src="link.png" alt="linkedin" style="width:45px;height:39px;border-radius:2px;"></a>
+             </div>
+            </form>
+
+
+        </div>
+    </div>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+
+</script>
+
+</html>

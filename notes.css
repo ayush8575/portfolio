@@ -1,0 +1,581 @@
+.home {
+    display: flex;
+    background: url("Photo.jpeg") no-repeat center;
+    height: 700px;
+    color: white;
+    text-align:right;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 100px;
+}
+
+.logo {
+    width: 45px;
+    height: 33px;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+.text-1 {
+    font-size: 27px;
+    margin-top: 280px;
+}
+
+.text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-top: 300px;
+    margin-left: -160px;
+}
+
+.text-3 {
+    font-size: 40px;
+    margin-top: 380px;
+    margin-left: -280px;
+}
+
+.text-3 span {
+    color: #04AA6D;
+    font-weight: 700;
+    margin-top: 200px;
+}
+
+.main {
+    float: left;
+    height: 380px;
+    width: 350px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding-right: 50px;
+}
+
+.head1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: -10px;
+    margin-top: 60px;
+}
+
+.subhead1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: center;
+    color: #04AA6D;
+}
+
+.abt {
+    text-align: center;
+    font-size: 30px font-family arial;
+    padding-top: 160px;
+}
+
+.first {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: -70px;
+}
+
+.hobbies {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: -5px;
+    margin-left: 290px;
+    margin-right: 20px;
+}
+
+.skills {
+    margin-top: 200px;
+}
+
+.head2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 50px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: -10px;
+    padding-top: 60px;
+}
+
+.subhead2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: center;
+    color: #04AA6D;
+}
+
+.text-4 {
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    font-size: 25px;
+    margin-bottom: -10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+.progress {
+    height: 10px;
+    background: grey;
+}
+
+.skill-down {
+    background-color: black;
+    padding: 50px;
+    margin-top: 0px;
+    align-self: center;
+    max-width: 100%;
+}
+
+.progress_text {
+    font-size: 18px;
+    padding-top: 15px;
+    color: white;
+    margin-left: 15px;
+    margin-top: -20px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress_fill {
+    width: 25%;
+    height: 100%;
+    background: #04AA6D;
+    margin-top: 20px;
+}
+
+.progress_fill_1 {
+    width: 70%;
+    height: 100%;
+    background: #04AA6D;
+    margin-top: 20px;
+}
+
+.progress_fill_2 {
+    width: 55%;
+    height: 100%;
+    background: #04AA6D;
+    margin-top: 20px;
+}
+
+.progress_fill_3 {
+    width: 60%;
+    height: 100%;
+    background: #04AA6D;
+    margin-top: 20px;
+}
+
+.head3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 50px;
+    font-size: 40px;
+    margin-bottom: -10px;
+    margin-top: 60px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.subhead3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: center;
+    color: #04AA6D;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    
+    margin-left: -20px;
+}
+
+.box {
+    background-color: grey;
+    width: 50%;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    padding-top: 30px;
+    margin-bottom: -90px;
+}
+
+.mid {
+    width: 150;
+    height: 150;
+    border-radius: 50%;
+    margin-top: 90px;
+    text-align: center;
+    vertical-align: middle;
+    border: 5px solid #04AA6D;
+    display: table-cell;
+    margin: auto;
+}
+
+.text-5 {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.text-6 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 15px;
+    text-align:center;
+}
+
+.head4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: -10px;
+    padding-top: 95px;
+    color: white;
+}
+
+.subhead4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: center;
+    color: #04AA6D;
+}
+
+.class {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 130px;
+    margin-top: -50px;
+}
+
+.class1 {
+    color: #04AA6D;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: -8px;
+}
+
+.text6 {
+    color: white;
+    font-size: 22px;
+    font-weight: 50px;
+    max-width: 800px;
+   
+    margin-top: 42px;
+    flex-wrap: nowrap;
+    font-display: flex;
+    text-align: center;
+}
+
+i {
+    font-size: 25px;
+    color: #04AA6D;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.form-container{ align-items:center;
+                 justify-content:center;
+                 text-align:center;
+}
+
+input[type=text] {
+    color: white;
+    font-size: 22px;
+    background-color: black;
+    width: 50%;
+    padding: 10px 20px;
+    margin: 10px 30px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #04AA6D;
+ }
+
+.form1 {
+    color: white;
+    font-size: 25px;
+}
+
+.form {
+    color: white;
+    font-size: 25px;
+   }
+
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 40px;
+      margin-left:30%;
+    transform:translateX(-30%);
+}
+
+a.but:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.but:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.edu:link {
+    color: black;
+    text-decoration: none;
+}
+
+a.but:hover {
+    text-decoration: underline;
+}
+
+a.edu:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a.edu:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#about {
+    padding-top: 1px;
+}
+
+#education {
+    padding-top: 4px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 15px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+.sidenav a:hover {
+    color: white;
+    background-color: #04AA6D;
+    font-size: 28px;
+}
+
+.sidenav #closebtn {
+    position: absolute;
+    top: 10;
+    right: 25px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    width:40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    color: #818181;
+}
+.sidenav #closebtn:hover{
+    background-color:#04AA6D;
+}
+
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media only screen and (max-height: 600px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 468px) 
+{
+.home {
+       background: url("pic3.jpg") no-repeat center;
+       margin-top:-80px;   
+ }
+.main {
+   border-radius:10px;
+    height: 340px;
+    width: 320px;
+   padding-bottom:20px;
+    margin-left: 6px;
+    padding-right: 2px;
+  
+}
+.text-1 {
+    font-size: 20px;
+    margin-top: 320px;
+    margin-left:-80px;
+}
+
+.text-2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 340px;
+  margin-left:-120px;
+    
+}
+
+.text-3 {
+    font-size: 25px;
+    margin-top: 380px;
+    margin-left:-130px;
+}
+
+.text-3 span {
+    color: #04AA6D;
+    font-weight: 700;
+    
+}
+.abt {
+
+       padding-top: 200px;
+}
+
+.first {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+.hobbies {
+    margin-top: -10px;
+    margin-left: 15px;
+    font-weight: 350;
+    margin-right: 10px;
+       }
+.flex-container {
+    display: block;
+    margin-right:30px;
+    margin-left: -20px;
+    
+}
+
+.box {
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 3px;
+    margin-left: 25px;
+    padding-top: 30px;
+    margin-bottom: 5px;
+    
+   }
+
+.mid {
+    width: 130;
+    height: 130;
+ }
+        
+.text-5 {
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 15px;
+    max-width:100%;
+   font-size: 23px;
+     }
+
+.text-6 {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 3px;
+ 
+}
+.class {
+   
+    font-size: 22px;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.class1 {
+       font-size: 19px;
+       margin-left: 60px;
+   }
+i {
+   
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.skills {
+    margin-top: 70px;
+    margin-left: -20px;
+    margin-right:-20px;
+   
+}
+.head1 {
+   
+    margin-bottom: -10px;
+    margin-top: -30px;
+}
+.head2 {
+       font-size: 37px;
+}
+.skill-down{
+         margin-left: -20px;
+         margin-right:-20px;
+}
+.text-4 {
+      padding-right: 10px;
+       
+      padding-left: 10px;
+}
+.text6{
+       padding:15px;
+}
+.head3 {
+     margin-bottom: -10px;
+    margin-top: 80px;
+   }
+}
